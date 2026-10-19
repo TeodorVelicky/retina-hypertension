@@ -1,0 +1,9 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
+timm==1.0.29
+grad-cam
+opencv-python-headless
+numpy
+pillow
+streamlit
