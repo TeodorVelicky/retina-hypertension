@@ -1,0 +1,14 @@
+{
+  "winner": "DINOv2-448 CLS | CLAHE | no TTA",
+  "C": 0.003,
+  "cv_auroc": 0.8372032761923215,
+  "cv_std": 0.03283877498828385,
+  "ablation": {
+    "resolution 224 -> 448 (DINOv2 CLS)": 0.016720333774295493,
+    "resolution 224 -> 448 (RETFound mean)": -0.0034094435243892107,
+    "richer: CLS -> CLS+mean (DINOv2-448)": 0.0038252988310830682,
+    "backbone: best DINOv2 -> best RETFound": -0.06377764137664832,
+    "CLAHE (avg over matched variants)": 0.012474475992749633,
+    "flip TTA (avg over matched variants)": 0.0009292339702082394
+  }
+}
