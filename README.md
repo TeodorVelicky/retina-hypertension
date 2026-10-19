@@ -9,7 +9,7 @@ chosen by cross-validation on train + val only, then evaluated on the test set o
 test set's second use (v1 was the first). The test set holds 28 positive images from 15 patients,
 so all intervals are wide.
 
-**Live demo:** DEMO_URL (upload a fundus photo, get a rank and a Grad-CAM heatmap)
+**Live demo:** [retina-hypertension.streamlit.app](https://retina-hypertension.streamlit.app) (upload a fundus photo, get a rank and a Grad-CAM heatmap)
 
 ![Test ROC and calibration](results/test_roc_calibration_v2.png)
 
